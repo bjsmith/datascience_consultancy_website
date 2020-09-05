@@ -1,0 +1,120 @@
+baseURL       = "http://example.org/"
+languageCode  = "en-uk"
+title         = "Causal Clarity | Data Science Consultancy"
+theme = "roxo-hugo"
+summarylength = 25
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Feature"
+    url     = "feature"
+    weight  = 3
+#[[menu.nav]]
+#    name    = "Portfolio"
+#    url     = "portfolio"
+#    weight  = 4
+#  [[menu.nav]]
+#    name    = "Blog"
+#    url     = "blog"
+#    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background_2.jpg"
+    heading               = "We create clear data insight from complex data and help you create impact"
+    tagline               = "DEMYSTIFY YOUR DATA"
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORK"
+    subtitle  = "Clarifying causal relationships in data for greater impact."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "feature"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = ""
+      phone   = "022-685-4105"
+      email   = "benjsmith@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "feature"
+#        [[params.footer.sitemap.link]]
+#          name = "Blog"
+#          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+#        [[params.footer.social.link]]
+#          name = "Medium"
+#          url  = "#"
+#        [[params.footer.social.link]]
+#          name = "Behance"
+#          url  = "#"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/in/bjsmithnz"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "http://github.com/bjsmith/"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help people:"
+        description = "understand their data<br>produce new data products<br>see their data in new ways"

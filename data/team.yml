@@ -1,0 +1,10 @@
+enable  : true
+title   : Personal information
+members  :
+  - image       : images/team/bensmith.jpeg
+    name        : DR BEN SMITH
+    designation : Data Science Consultant
+    link         : http://bjsmith.github.io/
+    linkedin    : https://www.linkedin.com/in/bjsmithnz
+    github      : http://github.com/bjsmith/
+    
