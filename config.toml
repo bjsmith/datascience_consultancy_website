@@ -1,6 +1,6 @@
 baseURL       = "/"
 languageCode  = "en-uk"
-title         = "Causal Clarity | Data Science Consultancy"
+title         = "Striatum Analytics | Data Science Consultancy"
 theme = "roxo-hugo"
 summarylength = 25
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -55,7 +55,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background_4.jpg"
+    background_image      = "images/backgrounds/hero-background_5.png"
     heading               = "We create clear data insight from complex data and help you create impact"
     tagline               = "DEMYSTIFY YOUR DATA"
     primary_button        = "See Our Works"
