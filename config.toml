@@ -83,7 +83,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title   = "Contact Info"
       address = ""
       phone   = "022-685-4105"
-      email   = "benjsmith@gmail.com"
+      email   = "hello@striatum.co.nz"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
