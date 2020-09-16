@@ -1,4 +1,4 @@
-baseURL       = "/"
+baseURL       = "https://www.striatum.co.nz/"
 languageCode  = "en-uk"
 title         = "Striatum Analytics | Data Science Consultancy"
 theme = "roxo-hugo"
